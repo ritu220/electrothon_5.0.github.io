@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em;
+  }
+  
+  main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 1em;
+  }
+  
+  .account-info, .transactions {
+    margin-bottom: 2em;
+  }
+  
+  .account-info h2, .transactions h2 {
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 0.5em;
+  }
+  
+  .account-info p {
+    margin: 0;
+  }
+  
+  .account-info .account-number, .account-info .balance, .account-info .interest-rate {
+    font-weight: bold;
+  }
+  
+  .transactions table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  .transactions th, .transactions td {
+    border: 1px solid #ccc;
+    padding: 0.5em;
+    text-align: left;
+  }
+  
+  .transactions th {
+    background-color: #f2f2f2;
+  }
+  
