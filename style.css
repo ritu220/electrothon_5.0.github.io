@@ -12,6 +12,14 @@ body
     display:flex;
     box-shadow: 0px 3px 65px 0px rgba(0, 0, 0, 0.856);
 }
+.wealthygo{
+    /* background-color: red; */
+    font-size: 20px;
+    color: white;
+    padding: 12px 34px;
+    padding-left: 23px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
 .nav_top
 {
     position:fixed;
