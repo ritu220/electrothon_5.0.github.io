@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Budget Setter</title>
+	<style>
+		.container {
+			max-width: 600px;
+			margin: 0 auto;
+			padding: 20px;
+			border: 1px solid #ccc;
+			border-radius: 5px;
+		}
+		label {
+			display: block;
+			margin-bottom: 10px;
+		}
+		input[type="text"] {
+			width: 100%;
+			padding: 8px;
+			border-radius: 5px;
+			border: 1px solid #ccc;
+			margin-bottom: 20px;
+		}
+		button {
+			background-color: #4CAF50;
+			color: white;
+			padding: 10px 20px;
+            margin: 30px -21px;
+			border: none;
+			border-radius: 5px;
+			cursor: pointer;
+			float: right;
+		}
+		button:hover {
+			background-color: #3e8e41;
+		}
+	</style>
+</head>
+<body>
+	<div class="container">
+		<h1>Budget Setter</h1>
+		<form>
+			<label for="income">Monthly Income:</label>
+			<input type="text" id="income" name="income" placeholder="Enter your monthly income">
+			<label for="housing">Housing:</label>
+			<input type="text" id="housing" name="housing" placeholder="Enter your housing budget">
+			<label for="transportation">Transportation:</label>
+			<input type="text" id="transportation" name="transportation" placeholder="Enter your transportation budget">
+			<label for="food">Food:</label>
+			<input type="text" id="food" name="food" placeholder="Enter your food budget">
+			<label for="entertainment">Entertainment:</label>
+			<input type="text" id="entertainment" name="entertainment" placeholder="Enter your entertainment budget">
+			<button type="submit">Set Budget</button>
+		</form>
+	</div>
+</body>
+</html>
