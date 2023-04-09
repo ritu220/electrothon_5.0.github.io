@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+.body{
+    background-color: rgb(164, 23, 23);
+}
+.heading{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5rem;
+    margin: 12px auto;
+    margin-left: 74px;
+    color: rgb(0, 0, 0);
+    display: inline-block;
+}
+.Recharge{
+    background-color: gray;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.7rem;
+    padding-left: 74px;
+    margin-top: 40px;
+    box-shadow: 0px 0px, 0px 0px 20px 4px;
+    text-shadow:
+      0 0 5px #fff,
+      0 0 5px #fff,
+      0 0 5px #fff,
+      0 0 151px rgb(255, 255, 255);
+}
+.Paybills{
+    background-color: gray;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.7rem;
+    padding-left: 74px;
+    margin-top: 100px;
+    box-shadow: 0px 0px, 0px 0px 20px 4px;
+    text-shadow:
+      0 0 5px #fff,
+      0 0 5px #fff,
+      0 0 5px #fff,
+      0 0 151px rgb(255, 255, 255);
+}
+.Recharge li a{
+    text-decoration: none;
+    font-size: 17px;
+    color: black;
+    position: relative;
+    color: rgb(0, 0, 0);
+    letter-spacing: .1em;
+    top: -30px;
+}
+.Recharge li a:hover{
+    color: rgb(247, 246, 246);
+    text-shadow:
+      0 0 5px #000000,
+      0 0 5px #030303,
+      0 0 5px #0e0d0d,
+      0 0 151px rgb(0, 0, 0);
+}
+.Paybills li a{
+    text-decoration: none;
+    font-size: 17px;
+    color: black;
+    position: relative;
+    color: rgb(0, 0, 0) ;
+    letter-spacing: .1em;
+    top: -30px;
+}
+.Paybills li a:hover{
+    color: rgb(247, 246, 246);
+    text-shadow:
+      0 0 5px #000000,
+      0 0 5px #030303,
+      0 0 5px #0e0d0d,
+      0 0 151px rgb(0, 0, 0);
+}
+.Recharge ul{
+    list-style: none;
+    display: flex;
+    position: relative;
+    gap: 3rem;
+    /* left: 190px; */
+    top: 10px;
+    font-weight: bold;
+}
+.Paybills ul{
+    list-style: none;
+    display: flex;
+    position: relative;
+    gap: 3rem;
+    /* left: 190px; */
+    top: 10px;
+    font-weight: bold;
+}
+.icon ul{
+    gap: 12rem;
+    padding-left: 70px;
+    margin-bottom: 40px;
+    background-color: gray;
+}
+.fa-apple {
+    padding-left: 50px
+}
+.fa-bolt-lightning{
+    padding-left: 35px;
+}
+.icon2{
+    gap: 12rem;
+    padding-left: 40px;
+    margin-bottom: 40px;
+    background-color: gray;
+}
+.fa-fire-flame-simple{
+    padding-left: 85px;
+}
+.fa-cc-amazon-pay{
+    padding-left: 120px;
+}
+.fa-mobile-screen-button{
+    padding-left: 130px;
+}
+.fa-wifi{
+    padding-left: 110px;
+}
+.fa-droplet{
+    padding-left: 55px;
+}
+.fa-laptop-file{
+    padding-left: 70px;
+}
