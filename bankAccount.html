@@ -84,11 +84,85 @@
           .buttons button:hover{
             background-color: rgba(54, 115, 148, 0.869);
           }
+          .container h2{
+            background-color: rgba(128, 128, 128, 0.589);
+            font-size: 1.5rem;
+            margin: 5px 5px;
+            padding: 10px 10px;
+          }
+          .container button{
+            background-color: darkgray;
+            height: 45px;
+            width: 10%;
+            border-radius: 40px;
+            border: none;
+            cursor: pointer;
+            margin: 7px 8px;
+          }
+          .setgoals{
+            margin-left: 60px;
+            height: 17vh;
+            width: 17vw;
+            padding: 10px 10px;
+            margin-bottom: 20px;
+            border-radius: 20px;
+            text-decoration: none;
+          }
+          .container button:hover{
+            background-color: rgba(255, 105, 180, 0.686);
+          }
+          .transportation{
+            margin: 20px 20px;
+            background-color: whitesmoke;
+            display: flex;
+            padding: 10px 10px;
+          }
+          .transportation h4{
+            padding: 10px 1px;
+            
+          }
+          .transportation input[type="number"]{
+            padding: 10px;
+            margin: 10px 10px;
+          }
+
+          .fees{
+            margin: 20px 20px;
+            background-color: whitesmoke;
+            display: flex;
+            padding: 10px 10px;
+          }
+          .fees h4{
+            padding: 10px 1px;
+            
+          }
+          .fees input[type="number"]{
+            padding: 10px;
+            margin: 10px 10px;
+          }
+
+          .movies{
+            margin: 20px 20px;
+            background-color: whitesmoke;
+            display: flex;
+            padding: 10px 10px;
+          }
+          .movies h4{
+            padding: 10px 1px;
+            
+          }
+          .movies input[type="number"]{
+            padding: 10px;
+            margin: 10px 10px;
+          }
+
+          
           
             
          
          
       </style>
+      <script src="https://kit.fontawesome.com/6409047b67.js" crossorigin="anonymous"></script>
 </head>
 <body>
       <div class="banner">
@@ -118,10 +192,35 @@
             <h3>Your monthly savings stats</h3>
             <div style="width:100%;height:0;padding-bottom:54%;position:relative;"><iframe src="https://giphy.com/embed/3o85xBiolEFwFtOw3C" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div><p><a href="https://giphy.com/gifs/primerstories-graph-3o85xBiolEFwFtOw3C"></a></p>
        </div>
+       <div class="setgoals">
+            <h3>Set your goals</h3>
+            <div style="width:100%;height:0;padding-bottom:117%;position:relative;"><iframe src="https://giphy.com/embed/77fiI8cUjQbuYLkUpn" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div><p><a href="https://giphy.com/gifs/mentimeter-chart-pie-menti-77fiI8cUjQbuYLkUpn"></a></p>
+       </div>
       </div>
      <div class="linkBanks">
       <h3>Link your bank accounts here</h3>
       <a href="#">+Add acounts</a>
      </div> 
+     <div class="container">
+      <h2>Customize your monthly cashflow plans</h2>
+      <button>Set month</button>
+     </div>
+     <div class="transportation">
+      
+      <i class="fa-solid fa-car fa-xl"></i>
+      <h4>Travel & Transportation</h4> <input type="number" placeholder="$ set budget for this month" name="name" required>
+
+     </div>
+
+     <div class="fees">
+      <i class="fa-sharp fa-regular fa-school fa-xl"></i>
+      <h4>Schools & Fees</h4> <input type="number" placeholder="$ set budget for this month" name="fees" required>
+
+     </div>
+     <div class="movies">
+      <i class="fa-solid fa-camera-movie fa-xl"></i>
+      <h4>Movies & shows</h4> <input type="number" placeholder="$ set budget for this month" name="movies" required>
+
+     </div>
 </body>
 </html>
