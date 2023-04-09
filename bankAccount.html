@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Balance track</title>
+      <style>
+            *{
+                  margin: 0;
+                  padding: 0;
+            }
+            .total{
+                  border: 5px solid blueviolet;
+                  border-radius: 7px;
+                  padding: 10px 12px;
+                  width: 50vw;
+                  margin: 10px 10px;
+            }
+            .linkBanks{
+                  border: 1px solid red;
+                  border-radius: 5px;
+                  margin: 20px 10px;
+                  padding: 10px 15px;
+                  width: 50vw;
+            }
+            .banner{
+                  background-color: purple;
+                  height: 150px;
+                 
+            }
+            .header{
+                  color: whitesmoke;
+                  font-size: 40px;
+                  padding-top: 18px;
+                  display: flex;
+                  justify-content: center;
+            }
+            .banner nav ul{
+                  display: flex;
+                  list-style-type: none;
+                  margin: 25px 20px;
+                  font-size: larger;
+                  padding: 20px;
+                  
+            }
+            .banner nav li a{
+                  margin: -25px 15px;
+                  padding: 10px;
+                  font-size: 30px;
+                  color: red;
+                  text-decoration: none;  
+            }
+            .wallet{
+                  display: flex;
+            }
+          .walletBalance{
+            background-color: green;
+            width: 25vw;
+            height: 25vh;
+            padding: 20px 20px;
+            border: none;
+            border-radius: 7px;
+            margin: 20px 10px;
+          }
+          .graph{
+            background-color: rgba(245, 63, 63, 0.937);
+            width: 25vw;
+            height: 25vh;
+            margin: 20px 10px;
+            padding: 20px 20px;
+            border: none;
+            border-radius: 7px;
+
+          }
+          .buttons button{
+            width: 50%;
+            height: 45px;
+            border-radius: 50px;
+            margin-top: 50px;
+            cursor: pointer;
+
+          }
+          .buttons button:hover{
+            background-color: rgba(54, 115, 148, 0.869);
+          }
+          
+            
+         
+         
+      </style>
+</head>
+<body>
+      <div class="banner">
+       <h2 class="header">Get started with your easy finance management</h2>
+       <nav>
+            <ul>
+                  <li><a href="#">Your own piggie bank</a></li>
+                  <li> <a href="#">Bills & Payments</a></li>
+                  <li> <a href="#"> Credit cards</a></li>
+                  <li> <a href="#"> Community</a></li>
+            </ul>
+       </nav>
+      </div>
+      <div class="total">
+       <h3>Total Bank Balance you have:</h3>
+      <h2>$15,000</h2>
+      </div>
+      <div class="wallet">
+       <div class="walletBalance">
+            <h3>Your wallet balance</h3>
+            <h2>$2,000</h2>
+            <div class="buttons">
+            <button>Add money</button>
+            </div>
+       </div>
+       <div class="graph">
+            <h3>Your monthly savings stats</h3>
+            <div style="width:100%;height:0;padding-bottom:54%;position:relative;"><iframe src="https://giphy.com/embed/3o85xBiolEFwFtOw3C" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div><p><a href="https://giphy.com/gifs/primerstories-graph-3o85xBiolEFwFtOw3C"></a></p>
+       </div>
+      </div>
+     <div class="linkBanks">
+      <h3>Link your bank accounts here</h3>
+      <a href="#">+Add acounts</a>
+     </div> 
+</body>
+</html>
